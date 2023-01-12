@@ -3,6 +3,7 @@ import { EstimateSection } from "components/EstimateSection";
 import FeatureSection from "components/feature/FeatureSection";
 import Hero from "components/Hero";
 import Page from "components/shared/Page";
+import TestimonialSection from "components/testimonial/TestimonialSection";
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
       <div className="w-full max-w-6xl mx-auto p-4">
         <FeatureSection />
         <EstimateSection />
+        <TestimonialSection />
       </div>
     </>
   );
