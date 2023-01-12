@@ -1,4 +1,5 @@
 import Button from "components/Button";
+import { EstimateSection } from "components/EstimateSection";
 import FeatureSection from "components/feature/FeatureSection";
 import Hero from "components/Hero";
 import Page from "components/shared/Page";
@@ -15,8 +16,9 @@ function Home() {
         <Hero />
       </Page>
 
-      <div className="w-full max-w-7xl mx-auto p-4">
+      <div className="w-full max-w-6xl mx-auto p-4">
         <FeatureSection />
+        <EstimateSection />
       </div>
     </>
   );
