@@ -1,6 +1,8 @@
+import Page from "components/shared/Page"
+
 function Home() {
   return (
-    <div>Home</div>
+    <Page className="bg-red-300 h-[350px]">Home</Page>
   )
 }
 
