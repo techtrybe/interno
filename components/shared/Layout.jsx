@@ -1,13 +1,13 @@
-import Navbar from 'components/Navbar'
-import React from 'react'
+import Navbar from "components/Navbar";
+import { Fragment } from "react";
 
-function Layout({children}) {
+function Layout({ children }) {
   return (
-    <>
-    <Navbar />
-    <main>{children}</main>
-    </>
-  )
+    <Fragment>
+      <Navbar />
+      <main>{children}</main>
+    </Fragment>
+  );
 }
 
-export default Layout
+export default Layout;
