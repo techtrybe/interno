@@ -3,6 +3,7 @@ import Button from "components/Button";
 import { EstimateSection } from "components/EstimateSection";
 import FeatureSection from "components/feature/FeatureSection";
 import Hero from "components/Hero";
+import ProjectSection from "components/project/ProjectSection";
 import Page from "components/shared/Page";
 import TestimonialSection from "components/testimonial/TestimonialSection";
 
@@ -23,6 +24,7 @@ function Home() {
         <EstimateSection />
         <TestimonialSection />
         <Brands />
+        <ProjectSection />
       </div>
     </>
   );
