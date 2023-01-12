@@ -5,6 +5,7 @@ import FeatureSection from "components/feature/FeatureSection";
 import Hero from "components/Hero";
 import ProjectSection from "components/project/ProjectSection";
 import Page from "components/shared/Page";
+import Stats from "components/Stats";
 import TestimonialSection from "components/testimonial/TestimonialSection";
 
 function Home() {
@@ -25,6 +26,9 @@ function Home() {
         <TestimonialSection />
         <Brands />
         <ProjectSection />
+      </div>
+      <div className="bg-[#F4F0EC] my-10 py-4">
+        <Stats />
       </div>
     </>
   );
