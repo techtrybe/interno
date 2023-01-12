@@ -1,3 +1,4 @@
+import Brands from "components/Brands";
 import Button from "components/Button";
 import { EstimateSection } from "components/EstimateSection";
 import FeatureSection from "components/feature/FeatureSection";
@@ -21,6 +22,7 @@ function Home() {
         <FeatureSection />
         <EstimateSection />
         <TestimonialSection />
+        <Brands />
       </div>
     </>
   );
