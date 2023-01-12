@@ -1,3 +1,4 @@
+import ArticleSection from "components/articles/ArticleSection";
 import Brands from "components/Brands";
 import Button from "components/Button";
 import { EstimateSection } from "components/EstimateSection";
@@ -29,6 +30,9 @@ function Home() {
       </div>
       <div className="bg-[#F4F0EC] my-10 py-4">
         <Stats />
+      </div>
+      <div className="w-full max-w-6xl mx-auto p-4">
+        <ArticleSection />
       </div>
     </>
   );

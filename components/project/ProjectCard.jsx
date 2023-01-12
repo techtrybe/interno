@@ -15,9 +15,9 @@ const ProjectCard = ({ project }) => {
           aria-label="view-project"
           className=" rounded-full relative transition bg-[#F4F0EC] p-3 flex items-center justify-center"
         >
-          <ChevronRightIcon className="w-8 h-8 z-45" />
+          <ChevronRightIcon className="w-8 h-8 z-45 text-dark" />
           <div className="w-full inset-0 h-full bg-primary flex items-center justify-center transition-all origin-center duration-300 scale-0 group-hover:scale-100 absolute rounded-full z-20">
-            <ChevronRightIcon className="w-8 h-8 z-45" />
+            <ChevronRightIcon className="w-8 h-8 z-45 text-dark" />
           </div>
         </button>
       </div>
