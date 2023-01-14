@@ -1,5 +1,6 @@
 import AboutHeader from 'components/about/AboutHeader'
 import AboutStory from 'components/about/AboutStory'
+import ContactSection from 'components/about/ContactSection'
 import TeamSection from 'components/about/TeamSection'
 import Page from 'components/shared/Page'
 import React from 'react'
@@ -10,6 +11,7 @@ function AboutPage() {
       <AboutHeader />
       <AboutStory />
       <TeamSection />
+      <ContactSection />
     </Page>
   );
 }

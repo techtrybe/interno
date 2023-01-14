@@ -96,3 +96,9 @@ border-radius: 70px;
   content: "";
   @apply w-full max-w-xs bg-white h-full  absolute -z-10;
 }
+
+
+/* form fields */
+input, textarea {
+  @apply outline-none border-0 focus:bg-lightGray p-4 relative w-full border-b placeholder:text-secondary placeholder:opacity-60 font-medium border-b-dark resize-none
+}

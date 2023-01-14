@@ -1,10 +1,13 @@
+import ServicesHeader from 'components/services/ServicesHeader';
 import Page from 'components/shared/Page'
-import React from 'react'
+
 
 function ServicesPage() {
   return (
-    <Page title='Services - Interno'>ServicesPage</Page>
-  )
+    <Page title="Services - Interno" maxW={"full"} className={"p-0"}>
+      <ServicesHeader />
+    </Page>
+  );
 }
 
 export default ServicesPage
