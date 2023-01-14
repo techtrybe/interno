@@ -5,7 +5,7 @@ const CallToAction = () => {
   return (
     <section className="bg-dark rounded-[40px] py-[3rem] md:py-[4rem] px-6 my-10">
       <div className="w-full max-w-2xl flex flex-col gap-7 items-center text-center text-white mx-auto">
-        <h2 className="font-normal">Wanna Join the Interno?</h2>
+        <h2 className="font-normal text-white">Wanna Join the Interno?</h2>
         <p className="font-normal text-center text-lg">
           Contact Us & Get a Free Consultation
         </p>
