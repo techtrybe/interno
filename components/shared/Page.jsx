@@ -13,7 +13,10 @@ function Page({
       <Head>
         <title>{title}</title>
       </Head>
-      <div className={`flex flex-col p-4 ${className}`} style={style}>
+      <div
+        className={`flex flex-col  ${className ? className : " p-4"}`}
+        style={style}
+      >
         <div className={`w-full max-w-${maxW} mx-auto`}>{children}</div>
       </div>
     </Fragment>

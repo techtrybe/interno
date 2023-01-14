@@ -21,7 +21,7 @@ const AboutHeader = () => {
 
 const QuoteSection = () => {
     return (
-      <section>
+      <section className="p-4">
         <div className="flex flex-col items-center gap-4 justify-center max-w-md md:max-w-xl px-4 quote-card">
           <span className="text-5xl text-dark leading-none">"</span>
           <em className="text-dark text-3xl text-center max-w-sm">

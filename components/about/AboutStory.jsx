@@ -3,7 +3,7 @@ import { FaArrowRight } from 'react-icons/fa';
 
 const AboutStory = () => {
   return (
-    <section className='py-[5rem]'>
+    <section className='py-[5rem] px-4 md:px-6'>
         <div className='w-full max-w-5xl mx-auto flex flex-col gap-[2rem]'>
             <WhatWeDo />
             <EndResult />

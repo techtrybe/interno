@@ -28,7 +28,7 @@ function Stats() {
             key={index}
             className="flex flex-col items-center gap-4 justify-center"
           >
-            <h3 className="text-primary drop-shadow-md text-display font-normal">{stat.value}</h3>
+            <h3 className="text-primary text-display font-normal">{stat.value}</h3>
             <p className="text-[#4D5053] text-center text-lg">{stat.name}</p>
           </div>
         ))}

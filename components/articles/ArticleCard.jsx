@@ -3,7 +3,7 @@ import { ChevronRightIcon } from "@heroicons/react/24/solid";
 
 function ArticleCard({article}) {
   return (
-    <article className="drop-shadow-md group hover:bg-[#F4F0EC] py-6 p-5 rounded-[40px] border border-[#E7E7E7] flex flex-col gap-6">
+    <article className=" bg-white group hover:bg-[#F4F0EC] py-6 p-5 rounded-[40px] border border-[#E7E7E7] flex flex-col gap-6">
       <div className="rounded-t-[40px] relative overflow-hidden w-full">
         <img src={article.image} alt={article.tag} />
         <div className="absolute bottom-4 left-4 bg-white rounded-[8px] text-dark py-3 px-5 drop-shadow-md rounded-bl-none">{article.tag}</div>
