@@ -18,7 +18,7 @@ const LINKS_ARR = [
   },
   {
     title: "Contact",
-    url: "/contact",
+    url: "/about",
   },
 ];
 
