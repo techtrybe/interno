@@ -79,7 +79,7 @@ function MobileMenu() {
         opacity: 0,
         scale: 0,
       }}
-      className="w-full origin-top-right bg-white shadow-sm h-fit p-4 absolute top-[100px] left-0"
+      className="w-full origin-top-right bg-white shadow-sm h-fit z-40 p-4 absolute top-[100px] left-0"
     >
       <div className="flex flex-col items-start ">
         {LINKS_ARR.map((item, index) => (

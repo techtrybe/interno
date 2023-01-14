@@ -57,7 +57,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <p className="text-center text-secondary">
+      <p className="text-center text-secondary mt-[2rem]">
         Copyright © Interno | Designed by Victorflow Templates - Built by <Link className="underline" target={"_blank"} href="https://madflows.dev">Madflows</Link>
       </p>
     </footer>

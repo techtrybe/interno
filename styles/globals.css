@@ -26,9 +26,15 @@
   h2,
   h3,
   h4, h5 {
-    @apply font-semibold;
+    @apply font-semibold text-dark;
     font-family: 'DM Serif Display', serif;
   }
+
+  em {
+    @apply text-dark font-normal italic;
+    font-family: 'DM Serif Display', serif;
+  }
+
 
   .text-display {
     @apply text-[65px];
@@ -71,3 +77,22 @@
 
 @tailwind components;
 @tailwind utilities;
+
+
+.quote-card {
+  @apply relative py-[2rem] mx-auto;
+}
+
+.quote-card::before {
+  content: "";
+  border: 25px solid #F4F0EC;
+border-radius: 70px;
+  @apply w-full max-w-4xl  absolute h-full -z-20;
+  
+}
+
+
+.quote-card::after {
+  content: "";
+  @apply w-full max-w-xs bg-white h-full  absolute -z-10;
+}
